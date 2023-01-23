@@ -10,7 +10,7 @@ Prérequis et info pour démarage :
 - Lancer depuis le fichier "main.py"
 
 
-dans des future mise à jour j'essayerait d'intégrer l'interprèteur dans le projet ou le transformer en exècutable.
+dans des futures mise à jour j'éssayerait d'intégrer l'interprèteur dans le projet ou de le transformer en exècutable.
 
 
 Bonne utilisation 
