@@ -22,6 +22,7 @@ class Player(animation.AnimateSprite):
         if self.healt - amount > self.healt_kill:
             self.healt -= amount
         else:
+            self.rect.x = 400
             self.game.game_over()
 
     def update_animation(self):

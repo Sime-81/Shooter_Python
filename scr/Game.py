@@ -63,7 +63,8 @@ class Game:
         self.comet_event.reset_percent()
         self.is_playing = False
         self.score = 0
-        self.sound_manager.stop('game_over')
+        self.sound_manager.play('game_over')
+        self.sound_manager.stop('background')
         self.ambiance_sound()
         self.ambiance = False
 
