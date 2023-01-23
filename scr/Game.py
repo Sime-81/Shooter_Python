@@ -1,3 +1,5 @@
+import time
+
 import pygame
 from Player import Player
 from Monster import Mummy, Alien
@@ -158,6 +160,8 @@ class Game:
 
             for event in pygame.event.get():
                 if event.type == pygame.QUIT:
+                    self.sound_manager.play('click')
+                    time.sleep(0.09)
                     running = False
 
                 elif event.type == pygame.KEYDOWN:
